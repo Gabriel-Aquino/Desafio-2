@@ -1,0 +1,21 @@
+{
+  "name": "desafio-2",
+  "version": "1.0.0",
+  "description": "desafio 2 do grupo de estudos",
+  "main": "index.js",
+  "repository": "https://github.com/Gabriel-Aquino/Desafio-2.git",
+  "author": "Aquino",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.1"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.0.0",
+    "eslint": "^8.0.1",
+    "eslint-config-standard-with-typescript": "^22.0.0",
+    "eslint-plugin-import": "^2.25.2",
+    "eslint-plugin-n": "^15.0.0",
+    "eslint-plugin-promise": "^6.0.0",
+    "typescript": "*"
+  }
+}
