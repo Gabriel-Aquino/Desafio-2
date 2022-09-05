@@ -20,21 +20,15 @@ services:
     networks:
       - node-network
 
-  redis:
-    image: redis:latest
-    ports:
-      - "6379:6379"
-    volumes:
-      - ./cache:/cache
-    #command: ["redis-server", "--bind", "redis", "--port", "6379"]
-    networks:
-      - node-network
-
   db:
     image: mongo:latest
     restart: always
+    environment:
+      - MONGO_INITDB_DATABASE=animes
     ports:
-      - '27017:27017'
+      - 27017:27017
+    volumes:
+      - ./db-data:/data/db:delegated
     networks:
       - node-network
 
