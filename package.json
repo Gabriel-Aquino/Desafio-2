@@ -20,7 +20,7 @@
     "morgan": "^1.10.0",
     "node-schedule": "^2.1.0",
     "reflect-metadata": "^0.1.13",
-    "tsyringe": "^4.7.0"
+    "tsyringe": "^4.8.0"
   },
   "devDependencies": {
     "@babel/cli": "^7.18.10",
